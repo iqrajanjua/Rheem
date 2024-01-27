@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rheem Cooling</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- navbarstart -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logoo-removebg-preview.png" alt="Bootstrap" width="90px" height="60px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active color" aria-current="page" href="#spilt">Spilt AC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color" href="#window">Window AC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color" href="#Cassette">Cassette AC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color" href="#floor">Floor Standing AC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color" href="#portable">Portable AC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color" href="#find">Find a store</a>
+          </li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"><i class="fa-solid fa-bag-shopping " style="font-size: 20px;"></i></a>
+          </li>
+        </ul>
+
+      </div>
+
+  </nav>
+
+
+  <!-- nav bar end -->
+
+  <!-- slider -->
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slider1.webp" class="d-block w-100  slider" alt="..."">
+      </div>
+      <div class=" carousel-item">
+        <img src="images/slider2.png" class="d-block w-100 slider" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slide3.webp" class="d-block w-100 slider" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- input  -->
+  <br>
+  <form class="container">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search item by title.." aria-label="Username"
+        aria-describedby="basic-addon1">
+      <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+    </div>
+  </form>
+
+
+  <!-- 1st heading -->
+  <br>
+  <h2 class="text-center heading">Top Selling Products</h2>
+  <BR><BR>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  g-4">
+            <div class="col">
+              <div class="card border border-info">
+                <img src="images/cas 1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Daikin 3.8 Ton Inverter Ceiling Cassette AC</h5>
+                  <h6 class="card-text">Rs 1,160,000.00</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border border-info">
+                <img src="images/window 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">General Window Air Conditioner 1.5 TON</h5>
+                  <h6 class="card-text">Rs 215,000.00</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border border-info">
+                <img src="images/portable 1.jpg" class="card-img-top height" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Haier® Smart Portable AC </h5>
+                  <H6 class="card-text">Rs 365,000.00 </H6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-info">
+                <img src="images/spilt2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Elegance 2 <br>Ton Inverter Split AC</h5>
+                  <h6 class="card-text">Rs 286,170.00 </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="card border-info">
+                <img src="images/floor2.jpeg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">FS 45 2 Ton Floor Standing Air AC</h5>
+                  <h6 class="card-text">Rs 328,069.00 .</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-info">
+                <img src="images/floor3.png" class="card-img-top heighttwo" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gallant 2 Ton Floor Standing AC</h5>
+                  <h6 class="card-text">Rs 381,969.00 </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-info">
+                <img src="images/cas2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Daikin 1.5 Ton Ceiling Cassette AC</h5>
+                  <h6 class="card-text">Rs 530,000.00</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-info">
+                <img src="images/portable2.jpeg" class="card-img-top imaage" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Haier® Portable Air Conditioner</h5>
+                  <H6 class="card-text">Rs 43,000.00</H6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- topselling end -->
+  <!-- section1 start -->
+  <br><br>
+  <section id="spilt">
+    <h2 class="text-center heading">Spilt Air Conditioners</h2>
+    <BR><BR>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt2.jpeg" class="card-img-top imaage" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Elegance 2 Ton Inverter Split AC</h5>
+                <h6 class="card-text">Rs 286,170.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt3.jpeg" class="card-img-top heighttwo" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Enercon 1 Ton Inverter Split AC</h5>
+                <h6 class="card-text">Rs 150,970.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt4.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Econo 2 Ton Inverter Split AC</h5>
+                <h6 class="card-text">Rs 277,069.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt5.jpeg" class="card-img-top heightthree" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Elegance 2 Ton Inverter Split AC</h5>
+                <H6 class="card-text">Rs Rs 286,170.00 </H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd card row -->
+    <br><br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt5.jpeg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sprinter 1.5 TonInverter Split AC</h5>
+                <h6 class="card-text">Rs 236,170.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt6.jpeg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chrome+ 1.5 Ton Split AC</h5>
+                <h6 class="card-text">Rs 150,970.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt7.jpg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KENWOOD SPLIT KES-1246S</h5>
+                <h6 class="card-text">Rs 289,069.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/spilt8.jpg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HAIER SPLIT Air Conditioner </h5>
+                <H6 class="card-text">Rs 45,000 </H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section2 start -->
+  <br><br>
+  <section id="window">
+    <h2 class="text-center heading">Window Air Conditioners</h2>
+    <BR><BR>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/window 1.jpg" class="card-img-top imaage" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">General Window Air Conditioner 1.5 TON</h5>
+                <h6 class="card-text">Rs 215,170.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/window2.jpg" class="card-img-top heighttwo" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">General Window Air Conditioner 2 Ton</h5>
+                <h6 class="card-text">Rs 265,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/window3.jpg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">General Window Air Conditioner</h5>
+                <h6 class="card-text">Rs 225,000.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/window 1.jpg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">General Window AC 2 TON</h5>
+                <H6 class="card-text">Rs 245,000.00
+
+                </H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd card row -->
+    <br><br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/window4.jpeg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Haier Window AC for Medium Rooms</h5>
+                <h6 class="card-text">Rs 236,170.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/window5.jpeg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Haier ENERGY STAR for Large Rooms</h5>
+                <h6 class="card-text">Rs 150,970.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/widow6.webp" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Panasonic 1 Ton Window AC</h5>
+                <h6 class="card-text">Rs 129,00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/window9.jpeg" class="card-img-top heightseven" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KEYSTONE Window Air Conditioner</h5>
+                <H6 class="card-text">Rs 32,000 </H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section3 -->
+  <br><br>
+  <section id="Cassette">
+    <h2 class="text-center heading">Cassette Air Conditioners</h2>
+    <BR><BR>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas 1.webp" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Daikin 1.5 Ton Ceiling Cassette AC</h5>
+                <h6 class="card-text">Rs 530,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas2.png" class="card-img-top imaage" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Daikin 3.8 Ton Inverter Ceiling Cassette AC</h5>
+                <h6 class="card-text">Rs 1,160,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas3.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kenwood 2 Ton Inverter Ceiling Cassette AC</h5>
+                <h6 class="card-text">Rs 505,000.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas4.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gree 1.4 Ton Inverter Ceiling Cassette AC</h5>
+                <H6 class="card-text">Rs 350,000.00</H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd card row -->
+    <br><br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas5.webp" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Haier 2 Ton Inverter Cassette AC</h5>
+                <h6 class="card-text">Rs 1,160,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas6.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ecostar 1.5 Ton Inverter Cassette AC </h5>
+                <h6 class="card-text">Rs 230,170.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">O General 4 Ton Inverter Ceiling Cassette AC</h5>
+                <h6 class="card-text">Rs 880,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/cas8.jpg" class="card-img-top heightsix" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gree 4 Ton Inverter Ceiling Cassette AC </h5>
+                <H6 class="card-text">Rs 550,847 </H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section5 -->
+  <br><br>
+  <section id="floor">
+    <h2 class="text-center heading"> Floor Standing Air Conditioners</h2>
+    <BR><BR>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor2.jpeg" class="card-img-top imaage" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gallant 2 Ton Floor Standing Air Conditioner</h5>
+                <h6 class="card-text">Rs 381,969.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor3.png" class="card-img-top heighttwo" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FS 45 2 Ton Floor Standing Air Conditioner</h5>
+                <h6 class="card-text">Rs 328,069.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor4.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dawlance Glamour 2 Ton Floor Standing AC </h5>
+                <h6 class="card-text">Rs 369,000.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor5.jpg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">EuroAire 2 Ton Floor Standing AC</h5>
+                <H6 class="card-text">Rs 120,000.00</H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd card row -->
+    <br><br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kenwood 4 Ton Floor Standing AC</h5>
+                <h6 class="card-text">Rs 562,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor7.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Samsung 4 Ton Floor Standing AC </h5>
+                <h6 class="card-text">Rs 34,880.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor8.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gree 8 Ton Floor Standing AC</h5>
+                <h6 class="card-text">Rs 32,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/floor9.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Daikin 3.8 Ton Floor Standing AC </h5>
+                <H6 class="card-text">Rs 940,000.00</H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+  <section id="portable">
+    <h2 class="text-center heading">Portable Air Conditioners</h2>
+    <BR><BR>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable2.jpeg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Haier® Portable Air Conditioner</h5>
+                <h6 class="card-text">Rs 43,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable 1.jpg" class="card-img-top height " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Haier® Smart Portable AC</h5>
+                <h6 class="card-text">Rs 365,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable3.avif" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LG Inverter Smart Wi-Fi Portable AC</h5>
+                <h6 class="card-text">Rs 239,200.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable4.avif" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">6,000 BTU Portable Air Conditioner</h5>
+                <H6 class="card-text">Rs 340,420.00</H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd card row -->
+    <br><br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable5.png" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TCL SMART PORTABLE AC</h5>
+                <h6 class="card-text">Rs 345,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable6.avif" class="card-img-top heighteight" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Smart Wi-Fi Portable AC</h5>
+                <h6 class="card-text">Rs 55,000.00 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable7.jpg" class="card-img-top height" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Portable AC for Small Rooms </h5>
+                <h6 class="card-text">Rs 32,000.00</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div class="col">
+            <div class="card border-info">
+              <img src="images/portable8.avif" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wi-Fi Enabled Portable Air Conditioner </h5>
+                <H6 class="card-text">Rs 940,000.00</H6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- find a store -->
+  <br>
+  <section id="find">
+    <h2 class="text-center heading">Find a store</h2>
+    <BR><BR>
+
+    <div class="container text-center">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+        <div class="col">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3620.9505076667765!2d67.0370634!3d24.8313661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d6e42d59263%3A0xa8a4bd1497a0283!2sDawlance%20Experience%20Store!5e0!3m2!1sen!2s!4v1703061992453!5m2!1sen!2s"
+            width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col">
+          <div data-aos="fade-up">
+            <p class="map">
+              Looking for a Rheem Cooling store to explore our latest air conditioner models?
+              Use our map to locate the nearest store in your area.
+              Discover top-notch cooling solutions and expert advice at your fingertips.
+              Experience the ease of finding the perfect cooling solution tailored to your needs.
+              Rheem Cooling is not just about air conditioners; it's about redefining comfort in your home.
+              Use our interactive map now and take the first step towards a cooler, more comfortable living space.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br><br>
+    <!-- footer -->
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+              class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+              class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+              class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+              class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);color: black;">
+        Rheem Cooling
+
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    </div>
+    <!-- End of .container -->
+
+    <script>
+      AOS.init();
+    </script>
+
+
+</body>
+
+</html>

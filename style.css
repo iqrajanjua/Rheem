@@ -1,0 +1,173 @@
+.color {
+  color: black;
+}
+
+.color:hover {
+  color: blue;
+}
+
+.slider {
+  height: 400px;
+}
+
+.map {
+  position: relative;
+  top: 20px;
+}
+
+.heading {
+  transition: color 0.5s ease-in;
+  color: black;
+  cursor: pointer;
+}
+
+.heading:hover {
+  color: blue;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+
+}
+
+.height {
+  height: 260px;
+}
+
+.heightthree {
+  height: 260px;
+}
+
+.heightfour {
+  height: 283px;
+}
+
+.heightfive {
+  height: 265px;
+}
+
+.heighteight {
+  height: 280px;
+}
+
+.map {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  position: relative;
+  top: 30px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .height {
+    height: 240px;
+  }
+
+  .heightthree {
+    height: 219px;
+  }
+
+  .heightfour {
+    height: 240px;
+  }
+
+  .heightsix {
+    height: 240px;
+  }
+
+  .heightseven {
+    height: 240px;
+  }
+
+  .heighteight {
+    height: 240px;
+  }
+
+  .map {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 968px) {
+
+  .height {
+    height: 360px;
+  }
+
+  .heighttwo {
+    height: 360px;
+  }
+
+  .imaage {
+    height: 360px;
+  }
+
+  .heightthree {
+    height: 340px;
+  }
+
+  .heightfour {
+    height: 340px;
+  }
+
+  .heightfive {
+    height: 340px;
+  }
+
+  .heightsix {
+    height: 340px;
+  }
+
+  .heightseven {
+    height: 340px;
+  }
+
+  .heighteight {
+    height: 355px;
+  }
+
+  .slider {
+    height: 250px;
+  }
+
+  .map {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+  }
+
+  .logo {
+    height: 100px;
+  }
+
+}
+
+@media only screen and (min-width:280px) and (max-width: 638px) {
+
+  .heightthree {
+    height: 340px;
+  }
+
+  .map {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .slider {
+    height: 200px;
+  }
+
+  .logo {
+    height: 70px;
+  }
+
+}
